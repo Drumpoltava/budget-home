@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.row>* {
+  padding-right: 0 !important;
+}
+
+.delete-category-button {
+  float: right;
+
+}
+
+.new-category-block {
+  padding-left: 0 !important;
+}
+
+.new-category-button {
+  cursor: pointer;
+}
+
+.category-name {
+  margin-left: 10px;
+}
+
+.button-position {
+  float: inline-end;
+}
+
+.recent-transaction-amount-text {
+  margin-left: 10px;
+}
+
+.recent-transaction-amount-dollar-format {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.recent-transaction-amount-dollar-format-income {
+  float: left;
+  font-size: 18px;
+}
+
+.recent-transaction-amount-dollar-format-outcome {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.recent-transaction-create-date {
+  color: lightslategray;
+  font-size: 12px;
+}
+
+.add-transaction-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#add-transaction-button {
+  width: 165px;
+}
+
+.recent-transaction-category {
+  margin-right: 10px;
+  color: lightslategray;
+}
